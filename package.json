@@ -1,0 +1,38 @@
+{
+  "name": "zhilyaev.github.io",
+  "version": "1.0.0",
+  "description": "Some me",
+  "author": "zhilyaev",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.3.6",
+    "@nuxtjs/markdownit": "^1.2.3",
+    "@nuxtjs/vuetify": "^0.5.1",
+    "cross-env": "5.2.0",
+    "nuxt": "2.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-friendly-formatter": "latest",
+    "eslint-loader": "latest",
+    "eslint-plugin-vue": "latest",
+    "eslint-plugin-html": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "nodemon": "latest",
+    "stylus": "latest",
+    "stylus-loader": "latest"
+  }
+}
