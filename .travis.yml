@@ -13,6 +13,7 @@ branches:
 install:
   - npm install
   - npm run generate
+  - cp -f README.md dist/README.md
 
 script:
   - echo "Skipping tests"
